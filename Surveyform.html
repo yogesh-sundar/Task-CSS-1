@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<style>
+		.color{
+  color:red;
+}
+.first{
+  font-size:9px;
+}
+#last{
+  margin:160px;
+}
+div{
+  font-weight:bolder;
+  font-size:15px;
+}
+.rate{
+  color:silver;
+  font-size:10px;
+}
+.star:after{
+  content:"★★★★★";
+    color:orange;
+  position:relative;
+  top:-10px;
+}
+table, th, td{
+  border-spacing:0px 5px;
+}
+th{
+  color:#444857;
+  text-align:center;
+  font-size:12px;
+}
+.type{
+  width:450px;
+  text-align:left;
+  color:#444857;
+}
+.type1{
+  background:#eee;
+  color:#444857;
+  width:450px;
+  text-align:left;
+}
+.bgcolor{
+  background:#eee;
+}
+td{
+  background:White;
+  padding:5px;
+  width:250px;
+  color:grey;
+  text-align:center;
+}
+.sub{
+  height:40px;
+  width:60px;
+  color:black;
+}
+
+	</style>
+</head>
+<body>
+<form>
+  <div>
+  <label for="name">Name<span class="color">*</span></label><br>
+  <input type="text" name="first name">
+  <input type="text" name="last name">
+   <p class="first">First  <span id="last">Last</span></p>
+    </div>
+  <div>
+    <label for="email">Email<span class="color">*</span><br>
+      <input type="text" type="number" name="email" size="46">
+    </label>
+  </div>
+  <div class="star">
+ <p>Your Experience<span class="color">*</span></p>
+    <p></p>
+    </div>
+  <p class= "rate"> Overall how would you rate your experience with us?</p>
+  <div>
+    <p >How satisfied are you with<span class="color">*</span></p>
+    </div>
+      <table >
+      <tr>
+        <th></th>
+        <th>Very unsatisfied</th>
+        <th>Unsatisfied</th>
+        <th>Neutral</th>
+        <th>Satisfied</th>
+        <th>Very satisfied</th>
+      </tr>
+        <tr>
+        <td class="type1">Purchase</td>
+        <td class="bgcolor"><input type="radio" name="rating"> </td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+      </tr>
+        <tr>
+        <td class="type">Service</td>
+        <td><input type="radio" name="rating"> </td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+      </tr>
+        <tr>
+        <td class="type1">Company Overall</td>
+        <td class="bgcolor"><input type="radio" name="rating"> </td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+      </tr>
+    </table>
+  <div>
+    <p >How likely are you to<span class="color">*</span></p>
+    </div>
+      <table >
+      <tr>
+        <th></th>
+        <th>Very Unlikely</th>
+        <th>Unikely</th>
+        <th>Neutral</th>
+        <th>Likely</th>
+        <th>Very Likely</th>
+      </tr>
+        <tr>
+        <td class="type1">Buy from us again</td>
+        <td class="bgcolor"><input type="radio" name="rating"> </td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+      </tr>
+        <tr>
+        <td class="type">Recommend our product to others</td>
+        <td><input type="radio" name="rating"> </td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+        <td><input type="radio" name="rating"></td>
+      </tr>
+        <tr>
+        <td class="type1">Recommend our company to others</td>
+        <td class="bgcolor"><input type="radio" name="rating"> </td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+        <td class="bgcolor"><input type="radio" name="rating"></td>
+      </tr>
+    </table>
+  <div>
+    <p><b> Additional comments or suggestions</b></p>
+    <textarea name="comment" cols="75" rows="5"></textarea>
+  </div>
+  <div>
+    <button class="sub">Submit</button>
+  </div>
+  
+ </form>
+</body>
+</html>
+
