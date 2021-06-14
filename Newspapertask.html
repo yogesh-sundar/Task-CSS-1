@@ -1,91 +1,306 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>News paper daily</title>
-	<style>
-		body{
-  font-family:calibri;
-  text-align:justify;
-}
-  .date{
-  font-weight:bolder;
-  font-size:12px;
-  font-style:italic;
-  font-family:calibri;
-}
-.moveright{
-  /*margin-left:350px;*/
-  position:absolute;
-  right: 7px;
+  <meta name=”viewport” content="width=device-width, initial-scale=1.0">
+  <title>News paper daily</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    .col-12 {
+      text-align: justify;
+      margin-top: -30px;
+      font-size: 115px;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+    }
 
-}
-.insidehr{
-  margin-top:0px;
-  margin-bottom:0px;
-  font-size:16px;
-  font-family:calibri;
-  text-align:justify;
-}
-h1{
-  font-size:70px;
-  margin-top:-5px;
-  text-align:center;
-  padding:15px;
-}
-h5{
-  font-size:25px;
-  font-style:italic;
-  margin-top:0px;
-  /*background:crimson;*/
-}
-.column{
-  column-count:2;
-  column-gap:10px;
-  /*column-rule:solid 1px;*/
-   text-align:justify;
-}
-#image{
-	float: left;
-	margin:0 0 0 15px;
-}
-.column1{
-	column-count: 3;
-	
-}
+    .today {
+      background: crimson;
+    }
 
+    .text-justify {
+      text-align: justify;
+    }
 
-</style>
+    .justify {
+      color: red;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .image {
+      position: relative;
+    }
+
+    .move {
+      padding: 25px;
+      width: 300px;
+      font-size: 15px;
+      text-align: right;
+      color: white;
+      /* background-color: black; */
+      position: absolute;
+      top: 100%;
+      right: 10%;
+    }
+
+    .circle {
+      font-size: 10px;
+      text-align: center;
+      padding: 12px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      color: white;
+      background: black;
+      position: absolute;
+      top: 95%;
+      right: 12%;
+    }
+
+    .image1 {
+      position: relative;
+    }
+
+    .date {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 20px;
+      padding: 2px;
+      position: absolute;
+      background: crimson;
+      font-size: 20px;
+      top: 133%;
+    }
+
+    .circle1 {
+      font-size: 10px;
+      text-align: center;
+      padding: 12px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      color: white;
+      background: black;
+      position: absolute;
+      top: 160%;
+      left: 29.7%;
+    }
+
+    .image2 {
+      position: relative;
+    }
+
+    .date1 {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 20px;
+      padding: 2px;
+      position: absolute;
+      background: crimson;
+      font-size: 20px;
+      top: 133%;
+    }
+
+    .circle2 {
+      font-size: 10px;
+      text-align: center;
+      padding: 12px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      color: white;
+      background: black;
+      position: absolute;
+      top: 160%;
+      left: 58.5%;
+    }
+
+    .image3 {
+      position: relative;
+    }
+
+    .date2 {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 20px;
+      padding: 2px;
+      position: absolute;
+      background: crimson;
+      font-size: 20px;
+      top: 133%;
+    }
+
+    .circle3 {
+      font-size: 10px;
+      text-align: center;
+      padding: 12px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      color: white;
+      background: black;
+      position: absolute;
+      top: 160%;
+      left: 87%;
+    }
+  </style>
 </head>
+
 <body>
-<div>
-  <p class="date">25 Lorem ipsum 1234/56/78 <span class="moveright">Lorem ipsum dolor sit</span></p>
-<hr><p class="insidehr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo inventore quo itaque vero, Totam laboriosam commodi dolorem voluptatem. Blanditiis officia facilis, accusantium tempora reiciendis!</p>
-  <hr>
-  <h1>NEWS DAILY WEEKLY</h1>
-</div>
-<div class="column">
-  <h5><span style="background:crimson">Today 01</span></h5>
-  <section>
-  <p><h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3> Totam laboriosam commodi dolorem voluptatem. Blanditiis officia facilis, accusantium tempora reiciendis animi! Veniam maiores impedit explicabo similique deleniti tempore, accusantium repellat incidunt, vero odio harum, eum eaque expedita consequatur delectus reprehenderit quo voluptate! Asperiores rerum quis, quae sapiente explicabo ex amet iste nostrum cumque hic voluptatum corrupti, impedit eligendi quas eos architecto minima!</p> <p>Repudiandae ex soluta nisi voluptatum doloribus omnis molestiae consequuntur inventore voluptate? Cupiditate fugit optio, nobis veritatis a voluptas rem, ex, ea perferendis repellat veniam voluptate illo velit amet. Ullam eos modi nesciunt consectetur sed quaerat eius natus ea consequuntur.</p>
-  </section>
-  <article>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam commodi dolorem voluptatem. Blanditiis officia facilis, accusantium tempora reiciendis animi! Veniam maiores impedit explicabo similique deleniti tempore, accusantium repellat incidunt, vero odio harum, eum eaque expedita consequatur delectus reprehenderit quo voluptate!</p>
-  </article>
-  <img src="https://www.tentaran.com/wp-content/uploads/2019/11/today-news-headlines-22nd-november-2019.jpg" alt="error" width="650" height="350" align="right" id="image">
-  
-</div>
-<div class="column1">
-	<article>
-	<img src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513" alt="Check your internet connection" width="400" height="150" align="center">
-	<p>
-		UEFA Euro 2020 Today Matches Schedule: The biggest crowd to gather in Italy for a year and a half will witness an Azzurri squad aiming for the title play a Turkey team aiming to spring a surprise on Friday at Stadio Olimpico in Rome. Rome is hosting the opening game of the European Championship even if Euro 2020 is kicking off in 2021.</p>
-	<img src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513" alt="Check your internet connection" width="400" height="150" align="center">
-	<p>While the opening game is in Rome between Italy and Turkey on Friday, the venue with the most games is Wembley. The north London stadium that is home to the England national team will stage the semifinals and final after five earlier games _ starting on Sunday with England against Croatia.
-	</p>
-	<img src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513" alt="Check your internet connection" width="400" height="150" align="center">
-	 
-	</article>
-	<p>Totam laboriosam commodi dolorem voluptatem. Blanditiis officia facilis, accusantium tempora reiciendis animi! Veniam maiores impedit explicabo similique deleniti tempore, accusantium repellat incidunt, vero odio harum, eum eaque expedita consequatur delectus reprehenderit quo voluptate!</p>
-</div>
+  <div class="container font-calibri bg-light container-sm container-lg container-xl container-md">
+    <div class="row mt-3">
+      <div class="col-auto me-auto fw-bold fst-italic fs-6">25 Lorem ipsum 1234/56/78</div>
+      <div class="col-auto fw-bold fst-italic fs-6">Lorem ipsum dolor sit</div>
+    </div>
+    <hr>
+    <p class="fs-6 text-justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos corporis assumenda deleniti
+      dolore tempore error, possimus, quisquam quo, praesentiu elit.
+    </p>
+    <hr>
+    <div class="row">
+      <div class="col-12">NEWS DAILY WEEKLY</div>
+    </div>
+    <div class="row">
+      <div class="col fw-bold fs-4 fst-italic">
+        <span class="today"> Today 01</span>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-4 d-grid gap-0 mb-2">
+        <div class="fw-bold fs-4">
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum neque elit,
+            exercitationem
+            dolorem odios</p>
+        </div>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aperiam distinctio
+          quaerat natus commodi
+          explicabo ipsa laudantium saepe quo et</p>
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quos temporibus vero consequuntur saepe?
+          Eligendi voluptates laborum aliquam adipisci omnis doloribus vel earum ipsam hic. Cupiditate praesentium
+          doloremque hic aliquam? Delectus doloribus
+          distinctio, exercitationem sit totam, ipsam unde asperiores iste voluptate pariatur ut nemo molestias eveniet
+          amet?
+        </p>
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi labore blanditiis vel ab.
+        </p>
+      </div>
+      <div class="col-8 media">
+        <div>
+          <img class="image"
+            src="https://www.tentaran.com/wp-content/uploads/2019/11/today-news-headlines-22nd-november-2019.jpg" alt=""
+            height=540 width="730">
+          <div class="circle">Page 25</div>
+          <div class="move">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor non aliquid quo nihil placeat
+              similique veniam mollitia earum adipisci, quas minus ipsam soluta exercitationem ut eligendi consectetur
+              modi debitis!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 media">
+        <div>
+
+          <img class="image1 img-fluid.max-width:100% heigth:auto"
+            src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513"
+            alt="" height=200 width=350>
+          <div class="date">25 12 34</div>
+          <div class="circle1">Page 25</div>
+        </div>
+
+        <b class="fs-5">
+          Lorem ipsum amet consectetur
+        </b>
+        <p class="text-justify">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit perspiciatis perferendis est quis numquam
+          quia quidem modi voluptatibus cumque, dolor repudiandae doloribus facilis vero odit, nobis sapiente! Vero,
+          deserunt enim!
+        </p>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde maiores voluptatem
+          doloribus tenetur, minus
+          officia placeat asperiores voluptas sequi similique impedit perferendis quia excepturi in atque, dolores culpa
+          enim magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ad ratione porro rerum tempora,
+          ipsam perspiciatis.</p>
+        <p class="text-justify">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore alias atque aspernatur officiis, dolores
+          unde mollitia, amet consectetur adipisicing elit.
+
+        </p>
+      </div>
+      <div class="col-4 media">
+        <div>
+          <img class="image2"
+            src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513"
+            alt="" height=200 width=350>
+          <div class="date1">25 12 34</div>
+          <div class="circle2">Page 25</div>
+        </div>
+        <b class="fs-5">
+          Lorem ipsum dolor sit amet
+        </b>
+        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit perspiciatis
+          perferendis est quis numquam
+          quia quidem modi voluptatibus cumque, dolor repudiandae doloribus facilis vero odit, nobis sapiente! Vero,
+          deserunt enim!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia ut, incidunt
+          quos ipsum, necessitatibus sunt praesentium nulla laudantium saepe veritatis vel illum provident consequuntur
+          animi, consequatur aliquam ipsam deserunt.
+        </p>
+        <hr>
+        <p class="justify">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit provident est laboriosam qui. Rem, quam natus
+          quae necessitatibus nobis eveniet modi minima unde expedita deleniti animi quos alias.
+        </p>
+
+      </div>
+
+      <div class="col-4">
+        <div>
+          <img class="image3"
+            src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-07T130227Z_775149745_RC2LVN9OU22E_RTRMADP_3_SOCCER-EURO-ITALY.jpg?resize=770%2C513"
+            alt="" height=200 width=350>
+          <div class="date2">25 12 34</div>
+          <div class="circle3">Page 25</div>
+        </div>
+        <b class="fs-5">
+          Lorem ipsum dolor sit amet
+        </b>
+
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde maiores voluptatem
+          doloribus tenetur, minus
+          officia placeat asperiores voluptas sequi similique impedit perferendis quia excepturi in atque, dolores culpa
+          enim magnam.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde maiores voluptatem
+          doloribus tenetur, minus
+          officia placeat asperiores voluptas sequi similique impedit perferendis quia excepturi in atque, dolores culpa
+          enim magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ad ratione porro rerum tempora,
+          ipsam perspiciatis.</p>
+        <p class="text-justify">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore alias atque aspernatur officiis, dolores
+          unde mollitia, amet consectetur adipisicing elit.</p>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-auto me-auto fw-bold fst-italic fs-6">25 Lorem ipsum 1234/56/78</div>
+        <div class="col-auto fw-bold fst-italic fs-6">Lorem ipsum dolor sit</div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
